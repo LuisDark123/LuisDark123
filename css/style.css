@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 	color: white;
 	font-family: 'Poiret One', cursive;
 }
@@ -8,14 +9,88 @@
 /*Clases Generales de uso multiple*/
 body{
 	background-color: #1c1c1c;
+	font-size: 16px;
+}
+
+h1,h2,h3,h4{
+	font-size: 50px;
+	
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	display: block;
+	perspective: 200px;
+	perspective-origin: center;
+}
+
+.top_margin{
+	margin-top: 20px;
 }
 
 .center{
 	text-align: center;
 }
 
-/*Seccion 1*/
-.redimension{
-	width: 200px;
+.cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Pantalla de carga*/
+.preload{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #1c1c1c;
+	z-index: 2;
+}
+
+.mark-box{
+	padding-top: 20px; 
+	width: auto;
+	height: 15vh;
+	margin-top: 40vh;
+	text-align: center;
+}
+
+.orbe{
+	display: inline-block;
 	border-radius: 50%;
+	background-color: white;
+	animation-name: popit;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+.one{ animation-delay: .5s; }
+.two{ animation-delay: 1s; }
+.three{ animation-delay: 1.5s; animation-duration: 1s}
+
+/*Seccion 1*/
+.redimension_img{
+	margin-top: 20vh;
+	width: 15em;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px white;
+}
+
+.cdefine_1{
+	background-image: url(../images/cover_blur.jpg);
+}
+
+/*Animaciones*/
+@keyframes popit{
+	0%{
+        width: 10px;
+        height: 10px;
+	}
+	100%{
+        width: 20px;
+        height: 20px;
+        box-shadow: 0 0 20px white;
+	}
 }
