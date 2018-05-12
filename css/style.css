@@ -6,16 +6,14 @@
 	font-family: 'Poiret One', cursive;
 }
 
+
 /*Clases Generales de uso multiple*/
 body{
-	background-color: #1c1c1c;
+	background-color: #080808;
 	font-size: 16px;
 }
 
-h1,h2,h3,h4{
-	font-size: 50px;
-	
-}
+h1,h2,h3,h4{ font-size: 50px; }
 
 section{
 	width: 100%;
@@ -25,18 +23,28 @@ section{
 	perspective-origin: center;
 }
 
-.top_margin{
-	margin-top: 20px;
-}
+.top_margin{ margin-top: 20px; }
 
-.center{
-	text-align: center;
-}
+.center{ text-align: center; }
 
 .cover{
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+.black{ color: black; }
+
+.button{
+	width: 100px;
+	height: auto;
+	margin-top: 3vh;
+	padding: 5px;
+	border: none;
+	border: 1px solid #080808;
+	font-size: 20px;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 /*Pantalla de carga*/
@@ -70,17 +78,18 @@ section{
 .two{ animation-delay: 1s; }
 .three{ animation-delay: 1.5s; animation-duration: 1s}
 
+
 /*Seccion 1*/
 .redimension_img{
-	margin-top: 20vh;
+	margin-top: 5vh;
 	width: 15em;
 	border-radius: 50%;
-	box-shadow: 0px 0px 50px white;
+	box-shadow: 0px 0px 100px black;
 }
 
-.cdefine_1{
-	background-image: url(../images/cover_blur.jpg);
-}
+.cdefine_1{ background-image: url(../images/minimal.jpg); }
+
+.slogan{ font-size: 21px; }
 
 /*Animaciones*/
 @keyframes popit{
