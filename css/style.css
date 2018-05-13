@@ -6,6 +6,19 @@
 	font-family: 'Poiret One', cursive;
 }
 
+/*Personalizacion del Scroll*/
+::-webkit-scrollbar-track{
+	background-color: #080808;	
+}
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #fff;
+	border-radius: 10px;
+}
 
 /*Clases Generales de uso multiple*/
 body{
