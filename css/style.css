@@ -6,19 +6,17 @@
 	font-family: 'Poiret One', cursive;
 }
 
-/*Personalizacion del Scroll*/
-::-webkit-scrollbar-track{
-	background-color: #080808;	
-}
 
-::-webkit-scrollbar{
-	width: 6px;
-}
+/*Personalizacion del Scroll*/
+::-webkit-scrollbar-track{ background-color: #080808; }
+
+::-webkit-scrollbar{ width: 6px; }
 
 ::-webkit-scrollbar-thumb{
 	background-color: #fff;
 	border-radius: 10px;
 }
+
 
 /*Icomoon Fonts*/
 @font-face {
@@ -87,11 +85,6 @@ section{
 
 .black{ color: black; }
 
-.button{
-	font-size: 50px;
-	cursor: pointer;
-}
-
 .paragraph{
 	width: 80%;
 	margin-left: auto;
@@ -105,6 +98,15 @@ section{
 }
 
 .color{ background-color: red; }
+
+.container{
+	width: 100%;
+	height: auto;
+	margin-top: 40px; 
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 /*Pantalla de carga*/
 .preload{
@@ -151,25 +153,52 @@ section{
 
 .slogan{ font-size: 21px; }
 
-/*Seccion 3*/
-.container_box{
-	width: 100%;
-	height: auto;
-	margin-top: 40px; 
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
+.button{
+	font-size: 50px;
+	cursor: pointer;
 }
 
+
+/*Seccion 3*/
 .box{
+	overflow: hidden;
 	width: 400px;
-	height: 350px;
+	height: auto;
+	margin: 15px;
+	transition: .5s;
+	cursor: pointer;
 }
 
 .box img{
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
+
+.box:hover{
+	box-shadow: 0 0 15px white;
+	transition: .5s;
+}
+
+/*Seccion 4*/
+.proyect{
+	overflow: hidden;
+	width: 600px;
+	height: auto;
+	margin: 15px;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.proyect:hover{
+	box-shadow: 0 0 15px white;
+	transition: .5s;
+}
+
+.proyect img{
+	width: 100%;
+	height: 100%;
+}
+
 /*Animaciones*/
 @keyframes popit{
 	0%{
