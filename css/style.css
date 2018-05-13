@@ -36,6 +36,8 @@ section{
 
 .top_margin{ margin-top: 20px; }
 
+.top_margin_section{ margin-top: 20vh; }
+
 .center{ text-align: center; }
 
 .cover{
@@ -57,6 +59,21 @@ section{
 	cursor: pointer;
 }
 
+.paragraph{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 27px;
+}
+
+.section_limit{
+	height: auto;
+	padding-bottom: 20vh;
+}
+
+.color{
+	background-color: red;
+}
 
 /*Pantalla de carga*/
 .preload{
@@ -103,6 +120,7 @@ section{
 
 .slogan{ font-size: 21px; }
 
+/*Seccion 3*/
 
 /*Animaciones*/
 @keyframes popit{
