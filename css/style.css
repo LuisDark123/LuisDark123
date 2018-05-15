@@ -186,12 +186,17 @@ section{
 
 
 /*Seccion 4*/
-article{
+.cards{
     width: 100%;
     height: auto;
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+article{
+	margin: 0;
+	padding: 0;
 }
 
 .card{
@@ -284,7 +289,6 @@ article{
 	background-image: url(../images/minimal.png);
 }
 
-
 /*Footer*/
 footer{
 	width: 100%;
@@ -301,13 +305,8 @@ footer div{
 
 .redimension_img_footer{
 	margin-top: 5vh;
-	width: 10em;
+	padding: 5px;
 	border-radius: 50%;
-}
-
-.title_footer{
-	color: black;
-	font-size: 30px;
 }
 
 /*Animaciones*/
@@ -321,4 +320,40 @@ footer div{
         height: 20px;
         box-shadow: 0 0 20px white;
 	}
+}
+
+
+/*Responsive Design*/
+@media screen and (max-width: 1150px){
+	.button{
+		color: white;
+	}
+	.slogan{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 890px){
+    .redimension_img{
+    	width: 12em;
+    }
+    .button{
+		display: none;
+	}
+	.card{
+		width: 350px;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+    .responsive_text{
+    	text-align: left;
+    	margin-top: 30px;
+    }
+    footer div{
+    	text-align: left;
+    	width: auto;
+    	margin: 5px;
+    }
 }
