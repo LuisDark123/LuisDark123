@@ -43,6 +43,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-message-square:before { content: "\e90d"; }
 .icon-chevron-down:before { content: "\e90c"; }
 .icon-code:before { content: "\e900"; }
 .icon-facebook:before { content: "\e901"; }
@@ -90,6 +91,10 @@ section{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 27px;
+}
+
+.text_decoration_none{
+	text-decoration: none;
 }
 
 .section_adaptive{
@@ -263,7 +268,6 @@ article{
 
 .watch{
 	width: 50px;
-    text-decoration: none;
     text-align: center;
     color: black;
     background-color: white;
@@ -280,34 +284,6 @@ article{
 	background-image: url(../images/minimal.png);
 }
 
-form{
-	width: 500px;
-	height: ;
-	margin: auto;
-	padding: 20px;
-}
-
-form div{
-	margin-top: 40px;
-}
-
-label{
-    font-size: 30px;
-}
-
-input, textarea{
-	width: 300px;
-	min-width: 300px;
-	max-width: 300px;
-	height: 30px;
-	min-height: 30px;
-	max-height: 60px;
-	float: right;
-	background: transparent;
-	border:none;
-	border-bottom: 1px solid white;
-	font-size: 30px;
-}
 
 /*Animaciones*/
 @keyframes popit{
