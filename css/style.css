@@ -285,6 +285,31 @@ article{
 }
 
 
+/*Footer*/
+footer{
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+	background: #f2f2f2;
+}
+
+footer div{
+	font-size: 30px;
+	display: inline-flex;
+	width: 80px;
+}
+
+.redimension_img_footer{
+	margin-top: 5vh;
+	width: 10em;
+	border-radius: 50%;
+}
+
+.title_footer{
+	color: black;
+	font-size: 30px;
+}
+
 /*Animaciones*/
 @keyframes popit{
 	0%{
