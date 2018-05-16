@@ -17,6 +17,12 @@
 	border-radius: 10px;
 }
 
+/*Poiret One font*/
+@font-face {
+	font-family: 'Poiret one';
+	src: url('../fonts/PoiretOne-Regular.ttf') format('truetype');
+}
+
 
 /*Icomoon Fonts*/
 @font-face {
