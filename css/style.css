@@ -154,7 +154,7 @@ section{
 	z-index: 3;
 }
 
-.cdefine_1{ background-image: url(../images/minimal.png); }
+.cdefine_1{ background-image: url(../images/minimal-min.png); }
 
 .slogan{ font-size: 21px; }
 
@@ -282,11 +282,11 @@ article{
 }
 
 .cover_card_1{
-	background-image: url(../images/mediaweb.png);
+	background-image: url(../images/mediaweb-min.png);
 }
 
 .cover_card_2{
-	background-image: url(../images/minimal.png);
+	background-image: url(../images/minimal-min.png);
 }
 
 /*Footer*/
