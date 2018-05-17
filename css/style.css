@@ -178,6 +178,9 @@ section{
 	margin: 15px;
 	transition: .5s;
 	cursor: pointer;
+	background-image: url(../images/eclipse.gif);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .box img{
