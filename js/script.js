@@ -8,6 +8,7 @@ var $boton = document.getElementById("boton_menu");
 var $menu = document.getElementById("menu_fullscreen");
 $boton.addEventListener('click', function(){
 	$menu.classList.toggle('active');
+	$boton.classList.toggle('icon-minus');
 });
 
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
