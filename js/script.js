@@ -4,6 +4,12 @@ loading.style.visibility = 'hidden';
 loading.style.opacity = '0';
 }
 
+var $boton = document.getElementById("boton_menu");
+var $menu = document.getElementById("menu_fullscreen");
+$boton.addEventListener('click', function(){
+	$menu.classList.toggle('active');
+});
+
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
