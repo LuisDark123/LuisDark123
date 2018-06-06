@@ -88,7 +88,7 @@ a{
 
 .top_margin{ margin-top: 20px; }
 
-.top_margin_section{ margin-top: 20vh; }
+.top_margin_section{ margin-top: 10vh; }
 
 .center{ text-align: center; }
 
@@ -112,7 +112,7 @@ a{
 
 .section_adaptive{
 	height: auto;
-	padding-bottom: 20vh;
+	padding-bottom: 10vh;
 }
 
 .color{ background-color: red; }
