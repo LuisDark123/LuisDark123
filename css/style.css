@@ -477,6 +477,61 @@ footer div{
 
 .item_background_2{ background-image: url(../images/minimal-min.png); }
 
+.full_cover{
+	width: 100%;
+	height: 50vh;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/cover_gitkraken.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.blog_title{
+	text-shadow: 0 0 10px white;
+}
+
+.blog_limit{
+	width: 85%;
+	height: auto;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.blog_limit p, .blog_limit li{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.contenedor-iframe{     
+    position:relative;      
+    padding-top: 56.25%; /* = (height(px)x100)/width(px)*/ 
+} 
+.iframe{      
+	position:absolute;      
+	top:0;      
+	right:0;      
+	bottom:0;      
+	left:0;      
+	height: 100%;      
+	width: 100%; 
+} 
+
+.enlace{
+	width: 410px;
+	height: 40px;
+	background-color: #f2f2f2;
+	border: none;
+	cursor: pointer;
+	color: black;
+	font-size: 18px;
+}
 
 /*Animaciones*/
 @keyframes popit{
