@@ -574,6 +574,15 @@ footer div{
 	}
 }
 
+@media screen and (max-width: 940px){
+	.blog_global{ 
+		grid-template-columns: repeat(2, minmax(300px, 300px));
+	    grid-template-rows: repeat(2, 300px); 
+	}
+    .blog_global article{ grid-column: span 2;}
+
+}
+
 @media screen and (max-width: 890px){
     .redimension_img{
     	width: 12em;
@@ -584,7 +593,17 @@ footer div{
 	.card{
 		width: 350px;
 	}
+}
 
+@media screen and (max-width: 650px){
+    footer{
+    	border-top: 10px solid green;
+    }
+    .blog_global{ 
+		grid-template-columns: repeat(1, minmax(150px, 1fr));
+	    grid-template-rows: repeat(1, 300px); 
+	}
+    .blog_global article{ grid-column: span 2;}
 }
 
 @media screen and (max-width: 500px){
