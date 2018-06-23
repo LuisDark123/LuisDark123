@@ -82,9 +82,7 @@ section{
 	display: block;
 }
 
-a{
-	text-decoration: none;
-}
+a{ text-decoration: none; }
 
 .top_margin{ margin-top: 20px; }
 
@@ -474,8 +472,8 @@ footer div{
 }
 
 .item_background_1{ background-image: url(../images/cover_gitkraken.jpg); }
-
-.item_background_2{ background-image: url(../images/minimal-min.png); }
+.item_background_2{ background-image: url(../images/cover_proteger.jpg); }
+.item_background_3{ background-image: url(../images/minimal-min.png); }
 
 .full_cover{
 	width: 100%;
@@ -492,9 +490,8 @@ footer div{
 	overflow: hidden;
 }
 
-.full_cover_selection_1{
-	background-image: url(../images/prueba.jpg);
-}
+.full_cover_selection_1{ background-image: url(../images/prueba.jpg); }
+.full_cover_selection_2{ background-image: url(../images/cover_proteger.jpg); }
 
 .blog_title{
 	width: 100%;
@@ -550,6 +547,11 @@ footer div{
 	font-size: 18px;
 }
 
+.adaptative_img{
+	max-width: 100%;
+	height: auto;
+}
+
 /*Animaciones*/
 @keyframes popit{
 	0%{
@@ -596,9 +598,6 @@ footer div{
 }
 
 @media screen and (max-width: 650px){
-    footer{
-    	border-top: 10px solid green;
-    }
     .blog_global{ 
 		grid-template-columns: repeat(1, minmax(150px, 1fr));
 	    grid-template-rows: repeat(1, 300px); 
