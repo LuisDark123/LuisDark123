@@ -485,12 +485,15 @@ footer div{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(../images/prueba.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
+}
+
+.full_cover_selection_1{
+	background-image: url(../images/prueba.jpg);
 }
 
 .blog_title{
