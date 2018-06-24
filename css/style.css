@@ -458,7 +458,7 @@ footer div{
     font-size: 20px;
     padding: 10px;
     text-shadow: 2px 2px 2px black;
-    background: rgba(0,0,0,.9);
+    background: black;
 }
 
 .item_wallet{
@@ -473,7 +473,7 @@ footer div{
 
 .item_background_1{ background-image: url(../images/cover_gitkraken.jpg); }
 .item_background_2{ background-image: url(../images/cover_proteger.jpg); }
-.item_background_3{ background-image: url(../images/minimal-min.png); }
+.item_background_3{ background-image: url(../images/cover_code.jpg); }
 
 .full_cover{
 	width: 100%;
@@ -492,6 +492,7 @@ footer div{
 
 .full_cover_selection_1{ background-image: url(../images/prueba.jpg); }
 .full_cover_selection_2{ background-image: url(../images/cover_proteger.jpg); }
+.full_cover_selection_3{ background-image: url(../images/cover_code.jpg); }
 
 .blog_title{
 	width: 100%;
