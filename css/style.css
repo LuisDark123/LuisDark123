@@ -496,7 +496,7 @@ footer div{
 .blog_title{
 	width: 100%;
 	text-shadow: 0 0 10px white;
-	font-size: 30px;
+	font-size: 50px;
 	padding: 10px;
 	margin-bottom: 20px;
 	display: flex;
@@ -511,7 +511,7 @@ footer div{
 }
 
 .blog_limit{
-	width: 85%;
+	width: 60%;
 	height: auto;
 	margin: auto;
 	margin-top: 70px;
@@ -602,7 +602,9 @@ footer div{
 		grid-template-columns: repeat(1, minmax(150px, 1fr));
 	    grid-template-rows: repeat(1, 300px); 
 	}
-    .blog_global article{ grid-column: span 2;}
+    .blog_global article{grid-column: span 2;}
+    .blog_limit{width: 85%;}
+    .blog_title{font-size: 30px;}
 }
 
 @media screen and (max-width: 500px){
