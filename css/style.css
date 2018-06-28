@@ -474,6 +474,7 @@ footer div{
 .item_background_1{ background-image: url(../images/cover_gitkraken.jpg); }
 .item_background_2{ background-image: url(../images/cover_proteger.jpg); }
 .item_background_3{ background-image: url(../images/cover_code.jpg); }
+.item_background_4{ background-image: url(../images/cover_prey.png); }
 
 .full_cover{
 	width: 100%;
@@ -493,6 +494,7 @@ footer div{
 .full_cover_selection_1{ background-image: url(../images/prueba.jpg); }
 .full_cover_selection_2{ background-image: url(../images/cover_proteger.jpg); }
 .full_cover_selection_3{ background-image: url(../images/cover_code.jpg); }
+.full_cover_selection_4{ background-image: url(../images/cover_prey_minimal.jpg); }
 
 .blog_title{
 	width: 100%;
