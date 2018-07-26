@@ -555,10 +555,29 @@ footer div{
 	height: auto;
 }
 
-.masproyectos{
+.formplaneta{
+	width: 300px;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.formplaneta input{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.formplaneta select{
 	width: 100%;
-	height: auto;
-	background-color: red;
+	background-color: black;
+}
+
+.videowall{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 /*Animaciones*/
