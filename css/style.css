@@ -261,7 +261,7 @@ nav ul li a:hover{
 	width: 400px;
 	height: auto;
 	margin: 15px;
-	transition: .5s;
+	transition: .2s;
 	cursor: pointer;
 	background-image: url(../images/eclipse.gif);
 	background-position: center;
@@ -275,7 +275,7 @@ nav ul li a:hover{
 
 .box:hover{
 	box-shadow: 0 0 15px white;
-	transition: .5s;
+	transition: .2s;
 }
 
 
