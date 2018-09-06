@@ -478,6 +478,7 @@ footer div{
 	align-items: flex-end;
 }
 
+.item_background_default{ background-image: url(../images/minimal-min.png); }
 .item_background_1{ background-image: url(../images/cover_gitkraken.jpg); }
 .item_background_2{ background-image: url(../images/cover_proteger.jpg); }
 .item_background_3{ background-image: url(../images/cover_code.jpg); }
