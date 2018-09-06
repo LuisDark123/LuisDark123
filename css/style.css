@@ -324,7 +324,7 @@ article{
 }
 
 .shadow:hover{
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,1));
 }
 
 .date{
@@ -336,7 +336,8 @@ article{
 	float: left;
 	font-size: 13px;
 	padding: 15px;
-	text-shadow: 2px 2px 2px black;
+	background-color: #f2f2f2;
+	color: black;
 }
 
 .information{
@@ -346,11 +347,11 @@ article{
 	margin: auto;
 	position: relative;
 	text-align: left;
-	transition: .8s;
+	transition: .3s;
 }
 
 .align_information_primary{
-	transform: translateY(380px);
+	transform: translateY(395px);
 }
 
 .align_information_secondary{
@@ -362,7 +363,9 @@ article{
     height: auto;
     font-size: 40px;
     z-index: 3px;
-    padding-left: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    color: black;
 }
 
 .description{
@@ -384,6 +387,10 @@ article{
     transform: translateY(100px);
 }
 
+.cover_card_default{
+	background-image: url(../images/minimal-min.png);
+}
+
 .cover_card_1{
 	background-image: url(../images/mediaweb-min.png);
 }
@@ -393,7 +400,7 @@ article{
 }
 
 .cover_card_3{
-	background-image: url(../images/minimal-min.png);
+	background-image: url(../images/hawaii-min.jpg);
 }
 
 /*Footer*/
@@ -557,18 +564,30 @@ footer div{
 
 .formplaneta{
 	width: 300px;
-	margin: auto;
-	margin-top: 10%;
+	margin: 5% auto !important;
+	font-size: 25px;
 }
 
 .formplaneta input{
     width: 100%;
     margin-top: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
 }
 
 .formplaneta select{
 	width: 100%;
 	background-color: black;
+	padding: 10px;
+	font-size: 22px;
+}
+
+.formplaneta_button{
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 .videowall{
@@ -622,6 +641,7 @@ footer div{
 	}
 	.card{
 		width: 350px;
+		min-width: 350px;
 	}
 }
 
