@@ -10,3 +10,8 @@ $boton.addEventListener('click', function(){
 	$menu.classList.toggle('active');
 	$boton.classList.toggle('icon-minus');
 });
+
+// Lazy Loading
+var bLazy = new Blazy({
+    selector: 'img'
+});
