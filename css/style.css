@@ -396,8 +396,8 @@ article{
 }
 
 .cover_card_2{
-	background-image: url(../images/lissie-portafolio.png);
-	background-position: right;
+	background-image: url(../images/lissie-portafolio.png) !important;
+	background-position: right !important;
 }
 
 .cover_card_3{
