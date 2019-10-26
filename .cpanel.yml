@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/worhok/public_html/luis/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp ** $DEPLOYPATH
